@@ -22,10 +22,22 @@ Paragraph default: 1.6
 
 - Primary: #e67e22
 
-- Tints: #fdf2e9 #fae5d3 #eb984e
-- Shades: #cf711f #45260a
+- Tints:
+#fdf2e9
+#fae5d3
+#eb984e
+
+- Shades:
+#cf711f
+#45260a
+
 - Accents:
-- Grays: #555 #333 #6f6f6f (lightest gray alloud on #fdf2e9)
+- Grays
+#333
+#555
+#6f6f6f (lightest gray alloud on #fdf2e9)
+#767676 (lightest gray alloud on #fff)
+#888
 
 ---- 05 SHADOWS
 
@@ -88,6 +100,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
